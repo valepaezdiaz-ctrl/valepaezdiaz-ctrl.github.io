@@ -1,1 +1,203 @@
-# valepaezdiaz-ctrl.github.io
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currículum Vitae - Isabel Conklin</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fb;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cv {
+    width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  /* Columna izquierda */
+  .left {
+    width: 35%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-right: 2px solid #dce6eb;
+  }
+
+  .left img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .box {
+    border: 2px solid #b3d6e4;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+  }
+
+  .box h3 {
+    background-color: #b3d6e4;
+    text-align: center;
+    padding: 6px;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+  .box p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  .progress-bar {
+    width: 100%;
+    background-color: #e5e5e5;
+    height: 8px;
+    border-radius: 5px;
+    margin-top: 3px;
+  }
+
+  .progress {
+    background-color: #4b9cb0;
+    height: 8px;
+    border-radius: 5px;
+  }
+
+  /* Columna derecha */
+  .right {
+    width: 65%;
+    padding: 30px;
+  }
+
+  .name {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .subtitle {
+    background-color: #b3d6e4;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 15px 0;
+    font-size: 15px;
+  }
+
+  .description {
+    text-align: justify;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .section {
+    margin-top: 25px;
+  }
+
+  .section h3 {
+    background-color: #b3d6e4;
+    text-align: center;
+    font-size: 15px;
+    padding: 6px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+  .section h4 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: #222;
+  }
+
+  .section p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 3px 0;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="cv">
+  <!-- Columna Izquierda -->
+  <div class="left">
+    <img src="https://i.imgur.com/wn8vYbD.png" alt="Isabel Conklin">
+
+    <div class="box">
+      <h3>CONTACTO</h3>
+      <p>📞 411 102 3911</p>
+      <p>📧 Belly.Conklin@gmail.com</p>
+      <p>📍 Calle 411, Carrera 10-11<br>Casa 23 Cousins Beach</p>
+    </div>
+
+    <div class="box">
+      <h3>IDIOMAS</h3>
+      <p>Inglés 100%</p>
+      <div class="progress-bar"><div class="progress" style="width:100%"></div></div>
+      <p>Francés 86%</p>
+      <div class="progress-bar"><div class="progress" style="width:86%"></div></div>
+    </div>
+
+    <div class="box">
+      <h3>FORMACIÓN</h3>
+      <p><strong>Grado en Psicología del Deporte</strong><br>Universidad Finch</p>
+      <p><strong>Trabajo en París</strong><br>Cafetería / Bar</p>
+    </div>
+  </div>
+
+  <!-- Columna Derecha -->
+  <div class="right">
+    <div class="name">ISABEL<br>CONKLIN</div>
+
+    <div class="subtitle">PSICOLOGÍA DEPORTIVA</div>
+    <p class="description">
+      Toda mi vida el vóley ha sido algo muy especial para mí. Siempre me vi jugando profesionalmente. 
+      Lamentablemente en un partido de la universidad tuve una lesión en mi rodilla, después de la lesión 
+      vi a una psicóloga deportiva que me ayudó mucho y me inspiró a trabajar de manera que pueda apoyar 
+      a todo el que tenga una historia como la mía.
+    </p>
+
+    <div class="section">
+      <h3>FORMACIÓN ACADÉMICA</h3>
+      <h4>Universidad Finch</h4>
+      <p><em>Psicología del deporte</em><br>2025 - Presente</p>
+      <p>
+        Como mencioné previamente me lesioné en la universidad. Debido a esto concentré mis estudios 
+        en la psicología del deporte. Con la universidad tuve una beca para estudiar en París.
+      </p>
+
+      <h4>Colegio</h4>
+      <p><em>Vóley</em><br>2009 - 2024</p>
+      <p>
+        En el colegio formé parte del equipo de vóley. Fui capitana del equipo por todos mis años como bachiller, 
+        a excepción de 11, en el que por pérdidas familiares descuidé mis estudios. Pero ya para el último año 
+        mi rendimiento académico mejoró y pude volver.
+      </p>
+
+      <h4>Trabajo</h4>
+      <p><em>Bar / Cafetería</em><br>2027 - Presente</p>
+      <p>
+        Al venir a París no confirmé mi estancia en la beca de París. Por tanto no pude hacer el curso. 
+        Terminé trabajando en una cafetería en París en la que me fue muy bien.
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
